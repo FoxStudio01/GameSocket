@@ -2,14 +2,15 @@
              Game Socket Manager
        Copyright © 2012-2015 Fox Studio
                Version 1.0.1
-           http://1drv.ms/20ZCeRt 
+            client: http://u3d.as/oJg
+    server: https://github.com/FoxStudio01/GameSocket/
 ----------------------------------------------
 
 Thank you for buying Game Socket Manager!
 
 For long net connection game.
 Powerful and Simple,Support all platforms!
-Include demo and simple server code. ( http://1drv.ms/20ZCeRt boost c++ asio server. ) 
+Include demo and simple server code. ( boost c++ asio server. ) 
 Complete templete client <-> server send/recv msg!
 
 
