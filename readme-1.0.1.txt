@@ -31,7 +31,7 @@ Now copy folder "FoxSDK" and "Plugins" to you own projects.Start it！
 --------------------
 server:
 
-WebPlayer need      open cmd,input "*****/webPlayer.exe --all".
+WebPlayer need      open cmd,input "*****/sockpol.exe --all".
 server-win32        use c++ and build by vs2012,please configure your "IP" and "port" in "server.xml".
 
 server/  server code.
