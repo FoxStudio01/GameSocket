@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="work">
+      <UniqueIdentifier>{489948ee-f471-4fa6-812b-24d916a82911}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="server">
+      <UniqueIdentifier>{978bd7fa-d429-45f7-864b-81d135d7f887}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="net">
+      <UniqueIdentifier>{89299dbc-f2ee-4404-b4fa-fed4503c81fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{26f37935-a466-4e68-b72f-c5dfa9cd510d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base">
+      <UniqueIdentifier>{7dbeb8d5-7d89-43b7-b0cb-35f043ebfab1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="config">
+      <UniqueIdentifier>{a3dfe739-3663-4c43-ae81-a39943354ef1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Base\logManager.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Base\netIOBuffer.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Base\netServer.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Base\netSocket.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="GameCommand.cpp">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="GameException.cpp">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlayer.cpp">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="CreatureManager.cpp">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerConfig.cpp">
+      <Filter>config</Filter>
+    </ClCompile>
+    <ClCompile Include="NetChatHandler.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="NetMsgHandler.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Common\gameDefine.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\msgDefine.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\msgType.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Base\baseDefine.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Base\baseSingle.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Base\logManager.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Base\netConfig.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Base\netIOBuffer.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Base\netServer.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Base\netSocket.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCommand.h">
+      <Filter>server</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlayer.h">
+      <Filter>server</Filter>
+    </ClInclude>
+    <ClInclude Include="CreatureManager.h">
+      <Filter>server</Filter>
+    </ClInclude>
+    <ClInclude Include="GameError.h">
+      <Filter>server</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerConfig.h">
+      <Filter>config</Filter>
+    </ClInclude>
+    <ClInclude Include="NetChatHandler.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="NetMsgHandler.h">
+      <Filter>net</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
