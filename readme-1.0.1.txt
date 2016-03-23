@@ -6,6 +6,7 @@
     server: https://github.com/FoxStudio01/GameSocket/
 ----------------------------------------------
 
+
 Thank you for buying Game Socket Manager!
 
 For long net connection game.
