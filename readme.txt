@@ -1,11 +1,11 @@
 ﻿----------------------------------------------	
              Game Socket Manager
-       Copyright © 2012-2015 Fox Studio
-               Version 1.0.1
+       Copyright © 2012-2017 Fox Studio
+               Version 1.1.1
             client: http://u3d.as/oJg
     server: https://github.com/FoxStudio01/GameSocket/
+	    email:55909028@qq.com
 ----------------------------------------------
-
 
 Thank you for buying Game Socket Manager!
 
@@ -13,6 +13,20 @@ For long net connection game.
 Powerful and Simple,Support all platforms!
 Include demo and simple server code. ( boost c++ asio server. ) 
 Complete templete client <-> server send/recv msg!
+
+
+
+
+--------------------
+v 1.1.1
+supost dns and ipv6.
+
+platforms safe unsafe  dns
+webgl		o	  x		x
+webplayer	o	  o		o
+pc/mac		o	  o		o
+ios			o	  o		o
+android		o	  o		o
 
 
 --------------------
@@ -32,7 +46,7 @@ Now copy folder "FoxSDK" and "Plugins" to you own projects.Start it！
 --------------------
 server:
 
-WebPlayer need      open cmd,input "*****/sockpol.exe --all".
+WebPlayer need      open cmd,input "*****/webPlayer.exe --all".
 server-win32        use c++ and build by vs2012,please configure your "IP" and "port" in "server.xml".
 
 server/  server code.

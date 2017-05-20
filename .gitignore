@@ -2,3 +2,9 @@ client/
 server/3rd/boost/
 server/3rd/openssl/
 
+res/
+server/Server/Debug/
+server/Server/server.sdf
+server/Server/server/Debug/
+server/Server/server.opensdf
+server/Server/Debug/server.exe
