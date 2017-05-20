@@ -21,12 +21,12 @@ Complete templete client <-> server send/recv msg!
 v 1.1.1
 supost dns and ipv6.
 
-platforms safe unsafe  dns
-webgl		o	  x		x
-webplayer	o	  o		o
-pc/mac		o	  o		o
-ios			o	  o		o
-android		o	  o		o
+platforms      safe     unsafe         dns
+webgl           o         x             x
+webplayer       o         o             o
+pc/mac          o         o             o
+ios             o         o             o
+android         o         o             o
 
 
 --------------------
