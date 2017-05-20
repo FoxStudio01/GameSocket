@@ -46,14 +46,15 @@ Now copy folder "FoxSDK" and "Plugins" to you own projects.Start it！
 --------------------
 server:
 
-WebPlayer need      open cmd,input "*****/webPlayer.exe --all".
+WebPlayer need this cmd : "sockpol.exe --all". you can find "sockpol.exe" in unity3d "Unity\Editor\Data\Tools\SocketPolicyServer"
 server-win32        use c++ and build by vs2012,please configure your "IP" and "port" in "server.xml".
 
 server/  server code.
 
 how to build it?
+0. build boost
 1. server/3rd/boost/      put boost here
-2. server/3rd/openssl/    put openssl here
+2. server/3rd/openssl/    put openssl(32bit) here
 3. build.
 
 Same way to build mac/linux.
