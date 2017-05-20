@@ -19,7 +19,7 @@ Complete templete client <-> server send/recv msg!
 
 --------------------
 v 1.1.1
-supost dns and ipv6.
+support  dns and ipv6.
 
 platforms      safe     unsafe         dns
 webgl           o         x             x
