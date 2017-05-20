@@ -9,7 +9,7 @@
 
 Thank you for buying Game Socket Manager!
 
-For long net connection game.
+For long net connection game.( TCP/IP )
 Powerful and Simple,Support all platforms!
 Include demo and simple server code. ( boost c++ asio server. ) 
 Complete templete client <-> server send/recv msg!
