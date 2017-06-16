@@ -22,8 +22,8 @@ v 1.1.1
 support  dns and ipv6.
 
 platforms      safe     unsafe         dns
-webgl           o         x             x
-webplayer       o         o             o
+webgl           o         o             x
+webplayer       o         x             o
 pc/mac          o         o             o
 ios             o         o             o
 android         o         o             o
